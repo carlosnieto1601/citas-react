@@ -19,7 +19,7 @@ const Formulario = () => {
   
       <div className="md:w-1/2 lg:w-2/5">
           <h2 className="font-black text-center text-3xl">
-              Seguimiento Pacientes 
+              Seguimiento Pacientessssss
         </h2>
         <p className="text-lg mt-5 text-center mb-10">
             Añade Pacientes y {""}
