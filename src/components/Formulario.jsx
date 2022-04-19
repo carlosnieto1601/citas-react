@@ -10,7 +10,6 @@ const Formulario = () => {
     const [sintomas,setSintomas] = useState ('');
     const [error, setError] = useState(false)
 
-<<<<<<< HEAD
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -21,23 +20,13 @@ const Formulario = () => {
             setError(true)
             return;
         }
-        
+      
 
         setError(false)
         
         
 
-=======
-    if ([nombre, propietario,email,fecha,sintomas].includes ('')) {
-            
-        console.log('Hay al menos un campo vacio')
-        setError(true)
-        return;
->>>>>>> 9ca8d747c79c2d049aceb9f5d4ed9a1f33913312
     }
-    
-
-    setError(false)
 
     return (
   
