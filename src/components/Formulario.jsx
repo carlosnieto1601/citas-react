@@ -9,11 +9,15 @@ const Formulario = () => {
     const [fecha,setFecha] = useState ('');
     const [sintomas,setSintomas] = useState ('');
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('enviando formulario')
-
+    if ([nombre, propietario,email,fecha,sintomas].includes ('')) {
+            
+        console.log('Hay al menos un campo vacio')
+        setError(true)
+        return;
     }
+    
+
+    setError(false)
 
     return (
   
